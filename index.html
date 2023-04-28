@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stiles.css">
+    
+    <title>Encriptador de codigo</title>
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="logo">
+
+           <img src="img/Logo.png" alt="">
+           
+        </div>
+        <div class="izquierda">
+            
+<textarea id="texto" type="text" name="texto" placeholder="Ingresa un mensaje sin mayusculas ni acento"></textarea>    
+    </div>
+
+           
+        <div class="derecha">
+           
+           <img src="img/Muñeco.png" alt="">
+           <h1 class="titulo-mensaje">Encriptador</h1>
+         <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="No se encuenta ningun mensaje para encriptar"></textarea>
+       
+         
+
+        </div>
+
+        
+
+        <div class="izquierda-boton">
+
+                <button type="button" value="encriptar" id="encriptar" onclick="encriptar()">Encriptar</button>
+            
+                 <button type="button" value="desencriptar" id="desencriptar"onclick="desencriptar()">Desencriptar</button>    
+        </div>
+
+        <div class="derecha-boton">
+
+                <button  type="button"  value="copiar" id="copiar"onclick="copiar()">Copiar</button>
+            
+                 
+        </div>
+
+        
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
